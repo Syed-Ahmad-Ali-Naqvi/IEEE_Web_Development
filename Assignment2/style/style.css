@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+section{
+    width: 100%;
+    left: 0%;
+    background-color: #505a69;
+}
+
+.Home_content{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: row;
+}
+
+.Home_text{
+    flex: 1 1 auto;
+    color: #cac9c9;
+    font-size: 5.5rem;
+    padding-right: 10%;
+}
+
+.John_Wick_1_content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex-direction: row;
+}
+
+.John_Wick_1_text{
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.John_Wick_1_img{
+    height: 400;
+    width: 500;
+}
+
+.John_Wick_1{
+    background-color: rgb(6, 46, 46);
+}
+
+.John_Wick_2_content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: row;
+}
+
+.John_Wick_2_text{
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.John_Wick_2_img{
+    height: 400;
+    width: 500;
+}
+
+.John_Wick_2{
+    background-color: rgb(28, 75, 75);
+}
+
+.John_Wick_3_content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: row;
+}
+
+.John_Wick_3_text{
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.John_Wick_3_img{
+    height: 400;
+    width: 500;
+}
+
+.John_Wick_3{
+    background-color: rgb(61, 105, 105);
+}
+
+.John_Wick_4_content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: row;
+}
+
+.John_Wick_4_text{
+    flex: 1 1 auto;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    padding-right: 10%;
+}
+
+.John_Wick_4_img{
+    height: 400;
+    width: 500;
+}
+
+.John_Wick_4{
+    background-color: rgb(37, 66, 66);
+}
+
+.navigation {
+    background-color: #0c1320;
+    height: 5rem;
+    padding-top: 1rem;
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+
+.navigation_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.navigation_list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Title{
+    font-size: 2.2rem;
+    line-height: .2;
+    text-align: left;
+    color: #fff;
+    text-decoration: double;
+}
+.navigation_logo img{
+    height: 50;
+    width: 50;
+}
+
+.navigation_items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.navigation_items a{
+    size: 1.1rem;
+    color: #ffffff;
+    text-decoration: double;
+    padding-left: 1rem;
+}
+.navigation_items a:hover {
+    color: #e91811bd;
+    text-decoration: underline;
+}
+
+.Title:hover{
+    color: #19f02b;
+}
+
+.More_button button{
+    background-color: #0c1320;
+    color: #cac9c9;
+    font-size: 1.5rem;
+    height: 40px;
+    width: 100px;
+}
+
+.More_button button:hover{
+    background-color: #e91811bd;
+    color: #12ec25;
+    cursor:pointer;
+}
+
+.navigation_items_subpage{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.navigation_items_subpage a{
+    color: #d2dbbc;
+    text-decoration: double;
+    padding-left: 1rem;
+}
+.navigation_items_subpage a:hover {
+    color: #6f11e9bd;
+    text-decoration: underline;
+}
+
+.Ratings{
+    color: #f7f7f7;
+}
+
+.Ratings:hover{
+    color: #13d876;
+}
+
+.footer{   
+    background-color: #302929;
+    height: 10rem;
+    padding-top: 1rem;
+    color: #fff;
+    bottom: 0;
+}
