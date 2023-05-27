@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Assignment 4</title>
+        <link rel="stylesheet" href="Styling.css">
+        <script src="./app.js"></script>
+    </head>
+    <body>
+        <section class="navigation">
+            <div class="navigation_bar">
+                <div class="navigation_Title">
+                    <h1 class="Title">Assignment_4</h1>
+                </div>
+                <div class="navigation_list">
+                    <li class="navigation_items"><a href="Main.html"><b>Home</b></a></li>
+                    <li class="navigation_items"><a href="Form.html"><b>Form</b></a></li>
+                </div>
+            </div>
+        </section>
+        <section class="Contact_Me">
+            <form name="myForm" onsubmit="return onClick()" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScIDqL6hgvxP1GmCcryduooj5Ds8nZG-N9lpHku3t4CuNTTFg/formResponse">
+                <div class="parent1">
+                    <div class="div1_1">
+                        <h1>Contact Me</h1>
+                    </div>
+                    <div class="div2_1">
+                        <label for="Name" class="form_items">Name<span class="tab"></span></label>
+                        <input type="text" name="entry.1103532369" placeholder="Enter your name" required>
+                    </div>
+                    <div class="div3_1">
+                        <label for="Email" class="form_items">Email<span class="tab"></span></label>
+                        <input type="email" name="entry.1751005528" placeholder="Enter your email" required>    
+                    </div>
+                    <div class="div4_1">
+                        <label for="Message" class="form_items">Response<span class="tab"></span></label>
+                        <textarea name="entry.120283884" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="div5_1">
+                        <input type="submit" value="Submit" class="submit_button">
+                    </div>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
